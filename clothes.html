@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/clothes.css">
+    <link rel="stylesheet" href="./clothes.scss">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="clothes-wrapper">
+        <div class="header">
+            <a href="#" class="logo">Basketball</a>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="clothes.html">Snicers</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                
+            </ul>
+            
+        </div>
+    </div>
+    <section class="about-main-one">
+        <h1 class="clothes-h1">SNICERS</h1>
+    </section>
+    
+<div class="clothes-boxx">
+    <button class="mode-switch" title="Switch Theme">
+        <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="36" height="36" viewBox="0 0 24 24">
+          <defs></defs>
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+        </svg>
+      </button>
+<div class="container">
+  <div class="box">
+    <h2 class="name">Nike Air Max</h2>
+    <a href="https://codepen.io/krautgti" class="buy">Buy Now</a>
+    <div class="circle"></div>
+    <img class="product" src="https://assets.codepen.io/7773162/green.png"/>
+  </div>
+  <div class="box">
+    <h2 class="name">Nike Air Max</h2>
+    <a href="https://codepen.io/krautgti" class="buy">Buy Now</a>
+    <div class="circle"></div>
+    <img class="product" src="https://assets.codepen.io/7773162/blue.png"/>
+  </div>
+  <div class="box">
+    <h2 class="name">Nike Air Max</h2>
+    <a href="https://codepen.io/krautgti" class="buy">Buy Now</a>
+    <div class="circle"></div>
+    <img class="product" src="https://assets.codepen.io/7773162/red.png"/>
+  </div>
+</div>
+</div>
+<section class="smaile">
+    <div class="feedback">
+        <label class="angry">
+            <input type="radio" value="1" name="feedback" />
+            <div>
+                <svg class="eye left">
+                    <use xlink:href="#eye">
+                </svg>
+                <svg class="eye right">
+                    <use xlink:href="#eye">
+                </svg>
+                <svg class="mouth">
+                    <use xlink:href="#mouth">
+                </svg>
+            </div>
+        </label>
+        <label class="sad">
+            <input type="radio" value="2" name="feedback" />
+            <div>
+                <svg class="eye left">
+                    <use xlink:href="#eye">
+                </svg>
+                <svg class="eye right">
+                    <use xlink:href="#eye">
+                </svg>
+                <svg class="mouth">
+                    <use xlink:href="#mouth">
+                </svg>
+            </div>
+        </label>
+        <label class="ok">
+            <input type="radio" value="3" name="feedback" />
+            <div></div>
+        </label>
+        <label class="good">
+            <input type="radio" value="4" name="feedback" checked />
+            <div>
+                <svg class="eye left">
+                    <use xlink:href="#eye">
+                </svg>
+                <svg class="eye right">
+                    <use xlink:href="#eye">
+                </svg>
+                <svg class="mouth">
+                    <use xlink:href="#mouth">
+                </svg>
+            </div>
+        </label>
+        <label class="happy">
+            <input type="radio" value="5" name="feedback" />
+            <div>
+                <svg class="eye left">
+                    <use xlink:href="#eye">
+                </svg>
+                <svg class="eye right">
+                    <use xlink:href="#eye">
+                </svg>
+            </div>
+        </label>
+    </div>
+            
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 4" id="eye">
+            <path d="M1,1 C1.83333333,2.16666667 2.66666667,2.75 3.5,2.75 C4.33333333,2.75 5.16666667,2.16666667 6,1"></path>
+        </symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 7" id="mouth">
+            <path d="M1,5.5 C3.66666667,2.5 6.33333333,1 9,1 C11.6666667,1 14.3333333,2.5 17,5.5"></path>
+        </symbol>
+    </svg>
+</section>
+<script src="https://assets.codepen.io/7773162/vanilla-tilt.min.js"></script>
+<script>
+  VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 15,
+		speed: 300,
+    easing: "cubic-bezier(.03,.98,.52,.99)",
+    scale: 1.05,
+	});
+</script>
+<footer class="footer">
+    <div class="foot">
+        <div class="foot-box">
+            <h1>ABOUT US</h1>
+            <p>Far far away, behind the word <br> mountains, far from the <br> countries Vokalia and <br> Consonantia, there live the <br> blind texts.</p>
+            <div class="icons-foot">
+                <a href="#"><i class="ri-instagram-fill"></i>
+                </a>
+                <a href="#"><i class="ri-telegram-fill"></i>
+                </a>
+                <a href="#"><i class="ri-youtube-fill"></i>
+                </a>
+            </div>
+        </div>
+        <div class="foot-box">
+            <h1>SERVICER</h1>
+            <a class="foot-cro" href="#">CROSSFIT</a> <br><br>
+            <a class="foot-cro" href="#">AEROBIC CLASSES</a><br><br>
+            <a class="foot-cro" href="#">WITH COMANDS</a><br><br>
+            <a class="foot-cro" href="#">BASKETBALL FULL</a><br>
+            <br>    
+            <a class="foot-cro" href="#">WITH GAMES</a>
+        </div>
+        <div class="foot-box">
+            <h1>HAVE A QUESTIONS?</h1>
+            <div class="foot-question">
+                <a href="#"><i class="ri-map-pin-fill"></i>
+                </a>
+                <p>	Tashkent</p>
+            </div>
+            <div class="foot-question">
+                <a href="#"><i class="ri-whatsapp-fill"></i>
+
+                </a>
+                <p>	+975980907</p>
+            </div>
+            <div class="foot-question">
+                <a href="#">
+                    <i class="ri-mail-fill"></i>
+                </a>
+                <p>sitorahayotova09@mail.ru</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+       <script src="https://unpkg.com/scrollreveal"></script>
+       <script src="./closhes.js"></script>
+</body>
+</html>
